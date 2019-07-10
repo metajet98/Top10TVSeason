@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_margin="10dp"
+              android:layout_marginBottom="10dp"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <TextView
+            android:text="Animal Kingdom, Season 4 - Animal Kingdom (iTunes Store: Top TV Seasons)"
+            android:id="@+id/item_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:fontFamily="sans-serif-condensed-medium"
+            android:textSize="18sp"/>
+    <TextView
+            android:text="Mon, 8 Jul 2019 4:17:01 EDT"
+            android:id="@+id/item_updated"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <ImageView
+                android:id="@+id/item_image"
+                android:layout_width="100dp"
+                android:layout_height="100dp"/>
+        <LinearLayout
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <TextView
+                    android:text="Animal Kingdom"
+                    android:id="@+id/item_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <TextView
+                    android:text="Price: $17.94"
+                    android:id="@+id/item_price"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            <TextView
+                    android:text="Release Date: May 27, 2019"
+                    android:id="@+id/item_releaseDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+            android:text="© Viacom Media Networks, a division of Viacom International Inc."
+            android:id="@+id/item_rights"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+</LinearLayout>
